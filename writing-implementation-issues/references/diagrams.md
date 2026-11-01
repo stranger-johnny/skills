@@ -91,14 +91,8 @@ rg "\.(save|create|update|delete|insert)\(|fetch\(|new .*Client\(|writeFile|enqu
 
 ### 構文を確かめる
 
-`npx` が使える場合は、Mermaid の CLI で図を描画して、構文の誤りを確かめます。
-
-```bash
-npx -y @mermaid-js/mermaid-cli -i diagram.mmd -o diagram.svg
-```
-
-エラーが出たら直し、描画できるまで繰り返します。
-`npx` が使えない場合は、下の規則と照らし合わせて読み直します。
+描いたら、下の規則と照らし合わせて読み直します。
+図が描画できるかは、Issue を作る前の Markdown Viewer のプレビューで確かめます。
 
 ## Mermaid の書き方の規則
 
